@@ -1,8 +1,9 @@
 import React from 'react';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import { render } from 'react-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import 'antd/dist/antd.css';
 import 'antd-doddle/dist/index.css';
+
 import Layout from './pages';
 import './style/index.less';
 

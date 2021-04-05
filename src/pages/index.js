@@ -11,6 +11,7 @@ const { Header, Sider, Content } = Layout;
 export default class Layer extends Component {
   constructor(props) {
     super(props);
+    console.log(props);
     this.state = {
       collapsed: false,
     };
@@ -54,6 +55,7 @@ export default class Layer extends Component {
             />
           </Header>
           <Content style={{ margin: '24px 16px', padding: 24, background: '#fff', minHeight: 280 }}>
+            <div>Index page</div>
             <Switch>
               <Route exact path={menus.home.path} component={Home} />
               <Route exact path={menus.renderProps.path} component={ExampleTable} />

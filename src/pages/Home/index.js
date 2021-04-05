@@ -6,7 +6,7 @@ export default class Root extends React.Component {
   render() {
     return (
       <div>
-        <h1>this is a home page</h1>
+        <h1>This is my home pages.</h1>
         <HomeDesc name={SiteName} />
       </div>
 
